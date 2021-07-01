@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F07563267D257900F8A102 /* Ashtanga_Yoga_CorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07562267D257900F8A102 /* Ashtanga_Yoga_CorkApp.swift */; };
+		77F07565267D257900F8A102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07564267D257900F8A102 /* ContentView.swift */; };
+		77F07567267D257B00F8A102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F07566267D257B00F8A102 /* Assets.xcassets */; };
+		77F0756A267D257B00F8A102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F07569267D257B00F8A102 /* Preview Assets.xcassets */; };
+		77F0762C267E0DEE00F8A102 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07622267E0DEE00F8A102 /* Booking.swift */; };
+		77F0762D267E0DEE00F8A102 /* Expiring_credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07623267E0DEE00F8A102 /* Expiring_credit.swift */; };
+		77F0762E267E0DEE00F8A102 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07624267E0DEE00F8A102 /* Profile.swift */; };
+		77F0762F267E0DEE00F8A102 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07625267E0DEE00F8A102 /* Class.swift */; };
+		77F07630267E0DEE00F8A102 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07626267E0DEE00F8A102 /* Transaction.swift */; };
+		77F07631267E0DEE00F8A102 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07627267E0DEE00F8A102 /* Price.swift */; };
+		77F07632267E0DEE00F8A102 /* Used_credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07628267E0DEE00F8A102 /* Used_credit.swift */; };
+		77F07633267E0DEE00F8A102 /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07629267E0DEE00F8A102 /* Credit.swift */; };
+		77F07634267E0DEE00F8A102 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0762A267E0DEE00F8A102 /* Student.swift */; };
+		77F07635267E0DEE00F8A102 /* WP_user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0762B267E0DEE00F8A102 /* WP_user.swift */; };
+		77F0763E267E0E0400F8A102 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07636267E0E0300F8A102 /* PurchaseView.swift */; };
+		77F0763F267E0E0400F8A102 /* BugReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07637267E0E0300F8A102 /* BugReporter.swift */; };
+		77F07640267E0E0400F8A102 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07638267E0E0400F8A102 /* LoginView.swift */; };
+		77F07641267E0E0400F8A102 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07639267E0E0400F8A102 /* SettingsView.swift */; };
+		77F07642267E0E0400F8A102 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0763A267E0E0400F8A102 /* MainView.swift */; };
+		77F07643267E0E0400F8A102 /* SocialLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0763B267E0E0400F8A102 /* SocialLogin.swift */; };
+		77F07644267E0E0400F8A102 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0763C267E0E0400F8A102 /* ReceiptView.swift */; };
+		77F07645267E0E0400F8A102 /* AycNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0763D267E0E0400F8A102 /* AycNavigation.swift */; };
+		77F0764A267E0E1900F8A102 /* subview in Resources */ = {isa = PBXBuildFile; fileRef = 77F07646267E0E1800F8A102 /* subview */; };
+		77F0764B267E0E1900F8A102 /* VoucherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07647267E0E1800F8A102 /* VoucherView.swift */; };
+		77F0764C267E0E1900F8A102 /* ViewSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07648267E0E1900F8A102 /* ViewSwitcher.swift */; };
+		77F0765D267E0E2800F8A102 /* VoucherImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0764E267E0E2700F8A102 /* VoucherImage.swift */; };
+		77F0765E267E0E2800F8A102 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0764F267E0E2700F8A102 /* Device.swift */; };
+		77F0765F267E0E2800F8A102 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07650267E0E2700F8A102 /* ApiError.swift */; };
+		77F07660267E0E2800F8A102 /* UpdateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07651267E0E2700F8A102 /* UpdateSource.swift */; };
+		77F07661267E0E2800F8A102 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07652267E0E2700F8A102 /* UIDevice.swift */; };
+		77F07662267E0E2800F8A102 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07653267E0E2700F8A102 /* Observable.swift */; };
+		77F07663267E0E2800F8A102 /* RequestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07654267E0E2700F8A102 /* RequestedView.swift */; };
+		77F07664267E0E2800F8A102 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07655267E0E2700F8A102 /* Common.swift */; };
+		77F07665267E0E2800F8A102 /* DownloadTaskComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07656267E0E2700F8A102 /* DownloadTaskComplete.swift */; };
+		77F07666267E0E2800F8A102 /* StringEncDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07657267E0E2700F8A102 /* StringEncDecoder.swift */; };
+		77F07667267E0E2800F8A102 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07658267E0E2700F8A102 /* Payload.swift */; };
+		77F07668267E0E2800F8A102 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07659267E0E2700F8A102 /* ActivityIndicator.swift */; };
+		77F07669267E0E2800F8A102 /* ScraperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0765A267E0E2700F8A102 /* ScraperManager.swift */; };
+		77F0766A267E0E2800F8A102 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0765B267E0E2700F8A102 /* Color.swift */; };
+		77F0766B267E0E2800F8A102 /* LoginStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0765C267E0E2800F8A102 /* LoginStatus.swift */; };
+		77F0767E267E12BF00F8A102 /* HorizontalRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0766C267E12BE00F8A102 /* HorizontalRule.swift */; };
+		77F0767F267E12BF00F8A102 /* GaneshSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0766D267E12BE00F8A102 /* GaneshSpacer.swift */; };
+		77F07680267E12BF00F8A102 /* BugButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0766E267E12BF00F8A102 /* BugButton.swift */; };
+		77F07681267E12BF00F8A102 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0766F267E12BF00F8A102 /* SectionHeader.swift */; };
+		77F07682267E12BF00F8A102 /* BookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07670267E12BF00F8A102 /* BookButton.swift */; };
+		77F07683267E12BF00F8A102 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07671267E12BF00F8A102 /* RoundedCorners.swift */; };
+		77F07684267E12BF00F8A102 /* TextFieldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07672267E12BF00F8A102 /* TextFieldAlert.swift */; };
+		77F07685267E12BF00F8A102 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07673267E12BF00F8A102 /* ImageButton.swift */; };
+		77F07686267E12BF00F8A102 /* RowStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07674267E12BF00F8A102 /* RowStack.swift */; };
+		77F07687267E12BF00F8A102 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07675267E12BF00F8A102 /* BackButton.swift */; };
+		77F07688267E12BF00F8A102 /* GradientBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07676267E12BF00F8A102 /* GradientBackgroundStyle.swift */; };
+		77F07689267E12BF00F8A102 /* WeekRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07677267E12BF00F8A102 /* WeekRule.swift */; };
+		77F0768A267E12BF00F8A102 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07678267E12BF00F8A102 /* Section.swift */; };
+		77F0768B267E12BF00F8A102 /* ScrollableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07679267E12BF00F8A102 /* ScrollableTextView.swift */; };
+		77F0768C267E12BF00F8A102 /* SettingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0767A267E12BF00F8A102 /* SettingOption.swift */; };
+		77F0768D267E12BF00F8A102 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0767B267E12BF00F8A102 /* AsyncImage.swift */; };
+		77F0768E267E12BF00F8A102 /* DateRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0767C267E12BF00F8A102 /* DateRule.swift */; };
+		77F0768F267E12BF00F8A102 /* PaypalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0767D267E12BF00F8A102 /* PaypalButton.swift */; };
+		77F07691267E13B600F8A102 /* tab_classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07690267E13B600F8A102 /* tab_classes.swift */; };
+		77F07693267E13BA00F8A102 /* tab_prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07692267E13BA00F8A102 /* tab_prices.swift */; };
+		77F07695267E13BC00F8A102 /* tab_profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F07694267E13BC00F8A102 /* tab_profile.swift */; };
+		77F07698267E184000F8A102 /* ubuntu_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F07696267E183F00F8A102 /* ubuntu_bold.ttf */; };
+		77F07699267E184000F8A102 /* ubuntu_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F07697267E183F00F8A102 /* ubuntu_regular.ttf */; };
+		77F0769B267E184B00F8A102 /* josefin_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0769A267E184B00F8A102 /* josefin_regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77F07571267D257B00F8A102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F07557267D257900F8A102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F0755E267D257900F8A102;
+			remoteInfo = "Ashtanga Yoga Cork";
+		};
+		77F0757C267D257B00F8A102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F07557267D257900F8A102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F0755E267D257900F8A102;
+			remoteInfo = "Ashtanga Yoga Cork";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77F0755F267D257900F8A102 /* Ashtanga Yoga Cork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ashtanga Yoga Cork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F07562267D257900F8A102 /* Ashtanga_Yoga_CorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ashtanga_Yoga_CorkApp.swift; sourceTree = "<group>"; };
+		77F07564267D257900F8A102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77F07566267D257B00F8A102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F07569267D257B00F8A102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77F0756B267D257B00F8A102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F07570267D257B00F8A102 /* Ashtanga Yoga CorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ashtanga Yoga CorkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F0757B267D257B00F8A102 /* Ashtanga Yoga CorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ashtanga Yoga CorkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F07622267E0DEE00F8A102 /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		77F07623267E0DEE00F8A102 /* Expiring_credit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expiring_credit.swift; sourceTree = "<group>"; };
+		77F07624267E0DEE00F8A102 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		77F07625267E0DEE00F8A102 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		77F07626267E0DEE00F8A102 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		77F07627267E0DEE00F8A102 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		77F07628267E0DEE00F8A102 /* Used_credit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Used_credit.swift; sourceTree = "<group>"; };
+		77F07629267E0DEE00F8A102 /* Credit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		77F0762A267E0DEE00F8A102 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		77F0762B267E0DEE00F8A102 /* WP_user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WP_user.swift; sourceTree = "<group>"; };
+		77F07636267E0E0300F8A102 /* PurchaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		77F07637267E0E0300F8A102 /* BugReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BugReporter.swift; sourceTree = "<group>"; };
+		77F07638267E0E0400F8A102 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		77F07639267E0E0400F8A102 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		77F0763A267E0E0400F8A102 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		77F0763B267E0E0400F8A102 /* SocialLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialLogin.swift; sourceTree = "<group>"; };
+		77F0763C267E0E0400F8A102 /* ReceiptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
+		77F0763D267E0E0400F8A102 /* AycNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AycNavigation.swift; sourceTree = "<group>"; };
+		77F07646267E0E1800F8A102 /* subview */ = {isa = PBXFileReference; lastKnownFileType = folder; path = subview; sourceTree = "<group>"; };
+		77F07647267E0E1800F8A102 /* VoucherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherView.swift; sourceTree = "<group>"; };
+		77F07648267E0E1900F8A102 /* ViewSwitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSwitcher.swift; sourceTree = "<group>"; };
+		77F0764E267E0E2700F8A102 /* VoucherImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoucherImage.swift; sourceTree = "<group>"; };
+		77F0764F267E0E2700F8A102 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		77F07650267E0E2700F8A102 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		77F07651267E0E2700F8A102 /* UpdateSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateSource.swift; sourceTree = "<group>"; };
+		77F07652267E0E2700F8A102 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		77F07653267E0E2700F8A102 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		77F07654267E0E2700F8A102 /* RequestedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestedView.swift; sourceTree = "<group>"; };
+		77F07655267E0E2700F8A102 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		77F07656267E0E2700F8A102 /* DownloadTaskComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTaskComplete.swift; sourceTree = "<group>"; };
+		77F07657267E0E2700F8A102 /* StringEncDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringEncDecoder.swift; sourceTree = "<group>"; };
+		77F07658267E0E2700F8A102 /* Payload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		77F07659267E0E2700F8A102 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		77F0765A267E0E2700F8A102 /* ScraperManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScraperManager.swift; sourceTree = "<group>"; };
+		77F0765B267E0E2700F8A102 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		77F0765C267E0E2800F8A102 /* LoginStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStatus.swift; sourceTree = "<group>"; };
+		77F0766C267E12BE00F8A102 /* HorizontalRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalRule.swift; sourceTree = "<group>"; };
+		77F0766D267E12BE00F8A102 /* GaneshSpacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaneshSpacer.swift; sourceTree = "<group>"; };
+		77F0766E267E12BF00F8A102 /* BugButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BugButton.swift; sourceTree = "<group>"; };
+		77F0766F267E12BF00F8A102 /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		77F07670267E12BF00F8A102 /* BookButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookButton.swift; sourceTree = "<group>"; };
+		77F07671267E12BF00F8A102 /* RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		77F07672267E12BF00F8A102 /* TextFieldAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAlert.swift; sourceTree = "<group>"; };
+		77F07673267E12BF00F8A102 /* ImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		77F07674267E12BF00F8A102 /* RowStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowStack.swift; sourceTree = "<group>"; };
+		77F07675267E12BF00F8A102 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		77F07676267E12BF00F8A102 /* GradientBackgroundStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBackgroundStyle.swift; sourceTree = "<group>"; };
+		77F07677267E12BF00F8A102 /* WeekRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekRule.swift; sourceTree = "<group>"; };
+		77F07678267E12BF00F8A102 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		77F07679267E12BF00F8A102 /* ScrollableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableTextView.swift; sourceTree = "<group>"; };
+		77F0767A267E12BF00F8A102 /* SettingOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingOption.swift; sourceTree = "<group>"; };
+		77F0767B267E12BF00F8A102 /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		77F0767C267E12BF00F8A102 /* DateRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateRule.swift; sourceTree = "<group>"; };
+		77F0767D267E12BF00F8A102 /* PaypalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaypalButton.swift; sourceTree = "<group>"; };
+		77F07690267E13B600F8A102 /* tab_classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab_classes.swift; sourceTree = "<group>"; };
+		77F07692267E13BA00F8A102 /* tab_prices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab_prices.swift; sourceTree = "<group>"; };
+		77F07694267E13BC00F8A102 /* tab_profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab_profile.swift; sourceTree = "<group>"; };
+		77F07696267E183F00F8A102 /* ubuntu_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ubuntu_bold.ttf; sourceTree = "<group>"; };
+		77F07697267E183F00F8A102 /* ubuntu_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ubuntu_regular.ttf; sourceTree = "<group>"; };
+		77F0769A267E184B00F8A102 /* josefin_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = josefin_regular.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F0755C267D257900F8A102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0756D267D257B00F8A102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F07578267D257B00F8A102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F07556267D257900F8A102 = {
+			isa = PBXGroup;
+			children = (
+				77F07561267D257900F8A102 /* Ashtanga Yoga Cork */,
+				77F07560267D257900F8A102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F07560267D257900F8A102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F0755F267D257900F8A102 /* Ashtanga Yoga Cork.app */,
+				77F07570267D257B00F8A102 /* Ashtanga Yoga CorkTests.xctest */,
+				77F0757B267D257B00F8A102 /* Ashtanga Yoga CorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F07561267D257900F8A102 /* Ashtanga Yoga Cork */ = {
+			isa = PBXGroup;
+			children = (
+				77F0769A267E184B00F8A102 /* josefin_regular.ttf */,
+				77F07696267E183F00F8A102 /* ubuntu_bold.ttf */,
+				77F07697267E183F00F8A102 /* ubuntu_regular.ttf */,
+				77F075ED267E0C6500F8A102 /* model */,
+				77F075E7267E0AF300F8A102 /* view */,
+				77F075E3267E0A8700F8A102 /* lib */,
+				77F07562267D257900F8A102 /* Ashtanga_Yoga_CorkApp.swift */,
+				77F07564267D257900F8A102 /* ContentView.swift */,
+				77F07566267D257B00F8A102 /* Assets.xcassets */,
+				77F0756B267D257B00F8A102 /* Info.plist */,
+				77F07568267D257B00F8A102 /* Preview Content */,
+			);
+			path = "Ashtanga Yoga Cork";
+			sourceTree = "<group>";
+		};
+		77F07568267D257B00F8A102 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77F07569267D257B00F8A102 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77F075E3267E0A8700F8A102 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				77F07659267E0E2700F8A102 /* ActivityIndicator.swift */,
+				77F07650267E0E2700F8A102 /* ApiError.swift */,
+				77F0765B267E0E2700F8A102 /* Color.swift */,
+				77F07655267E0E2700F8A102 /* Common.swift */,
+				77F0764F267E0E2700F8A102 /* Device.swift */,
+				77F07656267E0E2700F8A102 /* DownloadTaskComplete.swift */,
+				77F0765C267E0E2800F8A102 /* LoginStatus.swift */,
+				77F07653267E0E2700F8A102 /* Observable.swift */,
+				77F07658267E0E2700F8A102 /* Payload.swift */,
+				77F07654267E0E2700F8A102 /* RequestedView.swift */,
+				77F0765A267E0E2700F8A102 /* ScraperManager.swift */,
+				77F07657267E0E2700F8A102 /* StringEncDecoder.swift */,
+				77F07652267E0E2700F8A102 /* UIDevice.swift */,
+				77F07651267E0E2700F8A102 /* UpdateSource.swift */,
+				77F0764E267E0E2700F8A102 /* VoucherImage.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		77F075E7267E0AF300F8A102 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				77F07690267E13B600F8A102 /* tab_classes.swift */,
+				77F07694267E13BC00F8A102 /* tab_profile.swift */,
+				77F07692267E13BA00F8A102 /* tab_prices.swift */,
+				77F07646267E0E1800F8A102 /* subview */,
+				77F07648267E0E1900F8A102 /* ViewSwitcher.swift */,
+				77F07647267E0E1800F8A102 /* VoucherView.swift */,
+				77F0763D267E0E0400F8A102 /* AycNavigation.swift */,
+				77F07637267E0E0300F8A102 /* BugReporter.swift */,
+				77F07638267E0E0400F8A102 /* LoginView.swift */,
+				77F0763A267E0E0400F8A102 /* MainView.swift */,
+				77F07636267E0E0300F8A102 /* PurchaseView.swift */,
+				77F0763C267E0E0400F8A102 /* ReceiptView.swift */,
+				77F07639267E0E0400F8A102 /* SettingsView.swift */,
+				77F0763B267E0E0400F8A102 /* SocialLogin.swift */,
+				77F075E8267E0AFE00F8A102 /* subview */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		77F075E8267E0AFE00F8A102 /* subview */ = {
+			isa = PBXGroup;
+			children = (
+				77F0767B267E12BF00F8A102 /* AsyncImage.swift */,
+				77F07675267E12BF00F8A102 /* BackButton.swift */,
+				77F07670267E12BF00F8A102 /* BookButton.swift */,
+				77F0766E267E12BF00F8A102 /* BugButton.swift */,
+				77F0767C267E12BF00F8A102 /* DateRule.swift */,
+				77F0766D267E12BE00F8A102 /* GaneshSpacer.swift */,
+				77F07676267E12BF00F8A102 /* GradientBackgroundStyle.swift */,
+				77F0766C267E12BE00F8A102 /* HorizontalRule.swift */,
+				77F07673267E12BF00F8A102 /* ImageButton.swift */,
+				77F0767D267E12BF00F8A102 /* PaypalButton.swift */,
+				77F07671267E12BF00F8A102 /* RoundedCorners.swift */,
+				77F07674267E12BF00F8A102 /* RowStack.swift */,
+				77F07679267E12BF00F8A102 /* ScrollableTextView.swift */,
+				77F07678267E12BF00F8A102 /* Section.swift */,
+				77F0766F267E12BF00F8A102 /* SectionHeader.swift */,
+				77F0767A267E12BF00F8A102 /* SettingOption.swift */,
+				77F07672267E12BF00F8A102 /* TextFieldAlert.swift */,
+				77F07677267E12BF00F8A102 /* WeekRule.swift */,
+			);
+			path = subview;
+			sourceTree = "<group>";
+		};
+		77F075ED267E0C6500F8A102 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				77F07622267E0DEE00F8A102 /* Booking.swift */,
+				77F07625267E0DEE00F8A102 /* Class.swift */,
+				77F07629267E0DEE00F8A102 /* Credit.swift */,
+				77F07623267E0DEE00F8A102 /* Expiring_credit.swift */,
+				77F07627267E0DEE00F8A102 /* Price.swift */,
+				77F07624267E0DEE00F8A102 /* Profile.swift */,
+				77F0762A267E0DEE00F8A102 /* Student.swift */,
+				77F07626267E0DEE00F8A102 /* Transaction.swift */,
+				77F07628267E0DEE00F8A102 /* Used_credit.swift */,
+				77F0762B267E0DEE00F8A102 /* WP_user.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F0755E267D257900F8A102 /* Ashtanga Yoga Cork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F07584267D257B00F8A102 /* Build configuration list for PBXNativeTarget "Ashtanga Yoga Cork" */;
+			buildPhases = (
+				77F0755B267D257900F8A102 /* Sources */,
+				77F0755C267D257900F8A102 /* Frameworks */,
+				77F0755D267D257900F8A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ashtanga Yoga Cork";
+			packageProductDependencies = (
+			);
+			productName = "Ashtanga Yoga Cork";
+			productReference = 77F0755F267D257900F8A102 /* Ashtanga Yoga Cork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77F0756F267D257B00F8A102 /* Ashtanga Yoga CorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F07587267D257B00F8A102 /* Build configuration list for PBXNativeTarget "Ashtanga Yoga CorkTests" */;
+			buildPhases = (
+				77F0756C267D257B00F8A102 /* Sources */,
+				77F0756D267D257B00F8A102 /* Frameworks */,
+				77F0756E267D257B00F8A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F07572267D257B00F8A102 /* PBXTargetDependency */,
+			);
+			name = "Ashtanga Yoga CorkTests";
+			productName = "Ashtanga Yoga CorkTests";
+			productReference = 77F07570267D257B00F8A102 /* Ashtanga Yoga CorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77F0757A267D257B00F8A102 /* Ashtanga Yoga CorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0758A267D257B00F8A102 /* Build configuration list for PBXNativeTarget "Ashtanga Yoga CorkUITests" */;
+			buildPhases = (
+				77F07577267D257B00F8A102 /* Sources */,
+				77F07578267D257B00F8A102 /* Frameworks */,
+				77F07579267D257B00F8A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F0757D267D257B00F8A102 /* PBXTargetDependency */,
+			);
+			name = "Ashtanga Yoga CorkUITests";
+			productName = "Ashtanga Yoga CorkUITests";
+			productReference = 77F0757B267D257B00F8A102 /* Ashtanga Yoga CorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F07557267D257900F8A102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					77F0755E267D257900F8A102 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					77F0756F267D257B00F8A102 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 77F0755E267D257900F8A102;
+					};
+					77F0757A267D257B00F8A102 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 77F0755E267D257900F8A102;
+					};
+				};
+			};
+			buildConfigurationList = 77F0755A267D257900F8A102 /* Build configuration list for PBXProject "Ashtanga Yoga Cork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F07556267D257900F8A102;
+			packageReferences = (
+			);
+			productRefGroup = 77F07560267D257900F8A102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F0755E267D257900F8A102 /* Ashtanga Yoga Cork */,
+				77F0756F267D257B00F8A102 /* Ashtanga Yoga CorkTests */,
+				77F0757A267D257B00F8A102 /* Ashtanga Yoga CorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F0755D267D257900F8A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0769B267E184B00F8A102 /* josefin_regular.ttf in Resources */,
+				77F07699267E184000F8A102 /* ubuntu_regular.ttf in Resources */,
+				77F0764A267E0E1900F8A102 /* subview in Resources */,
+				77F0756A267D257B00F8A102 /* Preview Assets.xcassets in Resources */,
+				77F07698267E184000F8A102 /* ubuntu_bold.ttf in Resources */,
+				77F07567267D257B00F8A102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0756E267D257B00F8A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F07579267D257B00F8A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F0755B267D257900F8A102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F07630267E0DEE00F8A102 /* Transaction.swift in Sources */,
+				77F0764C267E0E1900F8A102 /* ViewSwitcher.swift in Sources */,
+				77F07689267E12BF00F8A102 /* WeekRule.swift in Sources */,
+				77F07635267E0DEE00F8A102 /* WP_user.swift in Sources */,
+				77F07631267E0DEE00F8A102 /* Price.swift in Sources */,
+				77F07680267E12BF00F8A102 /* BugButton.swift in Sources */,
+				77F07645267E0E0400F8A102 /* AycNavigation.swift in Sources */,
+				77F0766B267E0E2800F8A102 /* LoginStatus.swift in Sources */,
+				77F07688267E12BF00F8A102 /* GradientBackgroundStyle.swift in Sources */,
+				77F07640267E0E0400F8A102 /* LoginView.swift in Sources */,
+				77F0762F267E0DEE00F8A102 /* Class.swift in Sources */,
+				77F07669267E0E2800F8A102 /* ScraperManager.swift in Sources */,
+				77F07660267E0E2800F8A102 /* UpdateSource.swift in Sources */,
+				77F07686267E12BF00F8A102 /* RowStack.swift in Sources */,
+				77F07634267E0DEE00F8A102 /* Student.swift in Sources */,
+				77F0768B267E12BF00F8A102 /* ScrollableTextView.swift in Sources */,
+				77F07684267E12BF00F8A102 /* TextFieldAlert.swift in Sources */,
+				77F0762D267E0DEE00F8A102 /* Expiring_credit.swift in Sources */,
+				77F07663267E0E2800F8A102 /* RequestedView.swift in Sources */,
+				77F07661267E0E2800F8A102 /* UIDevice.swift in Sources */,
+				77F07633267E0DEE00F8A102 /* Credit.swift in Sources */,
+				77F0762E267E0DEE00F8A102 /* Profile.swift in Sources */,
+				77F07641267E0E0400F8A102 /* SettingsView.swift in Sources */,
+				77F0768F267E12BF00F8A102 /* PaypalButton.swift in Sources */,
+				77F07644267E0E0400F8A102 /* ReceiptView.swift in Sources */,
+				77F07681267E12BF00F8A102 /* SectionHeader.swift in Sources */,
+				77F07687267E12BF00F8A102 /* BackButton.swift in Sources */,
+				77F0768A267E12BF00F8A102 /* Section.swift in Sources */,
+				77F0766A267E0E2800F8A102 /* Color.swift in Sources */,
+				77F07685267E12BF00F8A102 /* ImageButton.swift in Sources */,
+				77F0768E267E12BF00F8A102 /* DateRule.swift in Sources */,
+				77F07668267E0E2800F8A102 /* ActivityIndicator.swift in Sources */,
+				77F07691267E13B600F8A102 /* tab_classes.swift in Sources */,
+				77F07565267D257900F8A102 /* ContentView.swift in Sources */,
+				77F07642267E0E0400F8A102 /* MainView.swift in Sources */,
+				77F07667267E0E2800F8A102 /* Payload.swift in Sources */,
+				77F0768C267E12BF00F8A102 /* SettingOption.swift in Sources */,
+				77F0765E267E0E2800F8A102 /* Device.swift in Sources */,
+				77F07665267E0E2800F8A102 /* DownloadTaskComplete.swift in Sources */,
+				77F07666267E0E2800F8A102 /* StringEncDecoder.swift in Sources */,
+				77F07682267E12BF00F8A102 /* BookButton.swift in Sources */,
+				77F0767F267E12BF00F8A102 /* GaneshSpacer.swift in Sources */,
+				77F07683267E12BF00F8A102 /* RoundedCorners.swift in Sources */,
+				77F07693267E13BA00F8A102 /* tab_prices.swift in Sources */,
+				77F07643267E0E0400F8A102 /* SocialLogin.swift in Sources */,
+				77F0763E267E0E0400F8A102 /* PurchaseView.swift in Sources */,
+				77F0762C267E0DEE00F8A102 /* Booking.swift in Sources */,
+				77F07632267E0DEE00F8A102 /* Used_credit.swift in Sources */,
+				77F0765D267E0E2800F8A102 /* VoucherImage.swift in Sources */,
+				77F07695267E13BC00F8A102 /* tab_profile.swift in Sources */,
+				77F07563267D257900F8A102 /* Ashtanga_Yoga_CorkApp.swift in Sources */,
+				77F0768D267E12BF00F8A102 /* AsyncImage.swift in Sources */,
+				77F07662267E0E2800F8A102 /* Observable.swift in Sources */,
+				77F0764B267E0E1900F8A102 /* VoucherView.swift in Sources */,
+				77F0765F267E0E2800F8A102 /* ApiError.swift in Sources */,
+				77F0767E267E12BF00F8A102 /* HorizontalRule.swift in Sources */,
+				77F07664267E0E2800F8A102 /* Common.swift in Sources */,
+				77F0763F267E0E0400F8A102 /* BugReporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0756C267D257B00F8A102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F07577267D257B00F8A102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77F07572267D257B00F8A102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F0755E267D257900F8A102 /* Ashtanga Yoga Cork */;
+			targetProxy = 77F07571267D257B00F8A102 /* PBXContainerItemProxy */;
+		};
+		77F0757D267D257B00F8A102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F0755E267D257900F8A102 /* Ashtanga Yoga Cork */;
+			targetProxy = 77F0757C267D257B00F8A102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77F07582267D257B00F8A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F07583267D257B00F8A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F07585267D257B00F8A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_ASSET_PATHS = "\"Ashtanga Yoga Cork/Preview Content\"";
+				DEVELOPMENT_TEAM = X829W9Q2CS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ashtanga Yoga Cork/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.39;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ayc.Ashtanga-Yoga-Cork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F07586267D257B00F8A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 34;
+				DEVELOPMENT_ASSET_PATHS = "\"Ashtanga Yoga Cork/Preview Content\"";
+				DEVELOPMENT_TEAM = X829W9Q2CS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ashtanga Yoga Cork/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.39;
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ayc.Ashtanga-Yoga-Cork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77F07588267D257B00F8A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ashtanga Yoga CorkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ayc.Ashtanga-Yoga-CorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashtanga Yoga Cork.app/Ashtanga Yoga Cork";
+			};
+			name = Debug;
+		};
+		77F07589267D257B00F8A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ashtanga Yoga CorkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ayc.Ashtanga-Yoga-CorkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashtanga Yoga Cork.app/Ashtanga Yoga Cork";
+			};
+			name = Release;
+		};
+		77F0758B267D257B00F8A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ashtanga Yoga CorkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ayc.Ashtanga-Yoga-CorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ashtanga Yoga Cork";
+			};
+			name = Debug;
+		};
+		77F0758C267D257B00F8A102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ashtanga Yoga CorkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.ayc.Ashtanga-Yoga-CorkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ashtanga Yoga Cork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F0755A267D257900F8A102 /* Build configuration list for PBXProject "Ashtanga Yoga Cork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F07582267D257B00F8A102 /* Debug */,
+				77F07583267D257B00F8A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F07584267D257B00F8A102 /* Build configuration list for PBXNativeTarget "Ashtanga Yoga Cork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F07585267D257B00F8A102 /* Debug */,
+				77F07586267D257B00F8A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F07587267D257B00F8A102 /* Build configuration list for PBXNativeTarget "Ashtanga Yoga CorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F07588267D257B00F8A102 /* Debug */,
+				77F07589267D257B00F8A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0758A267D257B00F8A102 /* Build configuration list for PBXNativeTarget "Ashtanga Yoga CorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0758B267D257B00F8A102 /* Debug */,
+				77F0758C267D257B00F8A102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F07557267D257900F8A102 /* Project object */;
+}
