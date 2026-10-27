@@ -1,5 +1,9 @@
 # Ashtanga Yoga Cork for iOS
 
+<p align="center">
+  <img src=".github/logo.png" alt="ashtangayogacork.ie-ios logo" width="128" />
+</p>
+
 The iOS app for the Ashtanga Yoga Cork studio, a client for the studio's
 booking site.
 
