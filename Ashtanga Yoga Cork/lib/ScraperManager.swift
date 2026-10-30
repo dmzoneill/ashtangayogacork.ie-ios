@@ -379,7 +379,6 @@ class ScraperManager: Observable {
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         
-        print(postfields)
                 
         let config = ScraperManager.config
         config.httpAdditionalHeaders = [
